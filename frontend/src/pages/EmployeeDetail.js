@@ -34,7 +34,8 @@ export default function EmployeeDetail() {
       .finally(() => setLoading(false));
   };
 
-  useEffect(() => { fetchData(); }, [id]);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => { fetchData(); }, [id]);  
 
   if (loading) return <PageLoader />;
   if (!employee) return null;
