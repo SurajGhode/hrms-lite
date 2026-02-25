@@ -1,0 +1,9 @@
+New folder/ 
+New folder.zip 
+__pycache__/ 
+*.pyc 
+venv/ 
+.env 
+staticfiles/ 
+node_modules/ 
+build/ 
